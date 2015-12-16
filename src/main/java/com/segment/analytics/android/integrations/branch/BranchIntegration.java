@@ -20,7 +20,7 @@ import io.branch.referral.Branch;
  */
 public class BranchIntegration extends Integration<Branch> {
 
-    private static final String BRANCH = "branch_key";
+    private static final String BRANCH = "Branch Metrics";
     private static final String VIEWED_SCREEN = "viewed_screen_";
     final Logger mLogger;
     final Branch mBranch; /* global instance */
