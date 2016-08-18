@@ -39,7 +39,7 @@ dependencies {
         maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
     }
     compile 'com.segment.analytics.android:analytics:4.0.0-SNAPSHOT'
-    compile 'io.branch.sdk.android:library:1.10.0'
+    compile 'io.branch.sdk.android:library:2.+'
     testCompile 'junit:junit:4.12'
     testCompile('org.robolectric:robolectric:3.0') {
         exclude group: 'commons-logging', module: 'commons-logging'
