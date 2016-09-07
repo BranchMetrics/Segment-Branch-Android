@@ -1,8 +1,8 @@
 analytics-android-integration-branch
 ======================================
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.segment.analytics.android.integrations/mixpanel/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.segment.analytics.android.integrations/mixpanel)
-[![Javadocs](http://javadoc-badge.appspot.com/com.segment.analytics.android.integrations/mixpanel.svg?label=javadoc)](http://javadoc-badge.appspot.com/com.segment.analytics.android.integrations/mixpanel)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.branch.segment.analytics.android.integrations/branch/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.branch.segment.analytics.android.integrations/branch)
+[![Javadocs](http://javadoc-badge.appspot.com/io.branch.segment.analytics.android.integrations/branch.svg?label=javadoc)](http://javadoc-badge.appspot.com/io.branch.segment.analytics.android.integrations/branch)
 
 Branch integration for [analytics-android](https://github.com/segmentio/analytics-android).
 
