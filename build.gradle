@@ -18,7 +18,7 @@ android {
   buildToolsVersion '23.0.0'
 
   defaultConfig {
-    minSdkVersion 14
+    minSdkVersion 15
     targetSdkVersion 23
     compileSdkVersion 23
   }
@@ -38,14 +38,14 @@ dependencies {
         mavenCentral()
         maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
     }
-    compile 'com.segment.analytics.android:analytics:4.0.0-SNAPSHOT'
-    compile 'io.branch.sdk.android:library:2.+'
+    compile 'com.segment.analytics.android:analytics:4.0.0'
+    compile 'io.branch.sdk.android:library:2.5.5'
     testCompile 'junit:junit:4.12'
     testCompile('org.robolectric:robolectric:3.0') {
         exclude group: 'commons-logging', module: 'commons-logging'
         exclude group: 'org.apache.httpcomponents', module: 'httpclient'
     }
-    testCompile 'com.segment.analytics.android:analytics-tests:4.0.0-SNAPSHOT'
+    testCompile 'com.segment.analytics.android:analytics:4.0.0'
     testCompile 'org.assertj:assertj-core:1.7.1'
     testCompile 'org.mockito:mockito-core:1.10.19'
     testCompile 'org.powermock:powermock:1.6.2'
