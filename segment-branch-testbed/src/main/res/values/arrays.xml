@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="segment_ecom_events">
+        <item>Checkout Step Completed</item>
+        <item>Products Searched"</item>
+        <item>Product Viewed"</item>
+        <item>Product Added to Wishlist"</item>
+        <item>Product List Filtered"</item>
+        <item>Payment Info Entered"</item>
+        <item>Product Reviewed"</item>
+        <item>Product List Viewed"</item>
+        <item>Order Completed"</item>
+        <item>Wishlist Product Added to Cart</item>
+        <item>Product Removed from Wishlist</item>
+        <item>Coupon Removed</item>
+        <item>Order Cancelled</item>
+        <item>Cart Shared</item>
+        <item>Cart Viewed</item>
+        <item>Order Updated</item>
+        <item>Coupon Denied</item>
+        <item>Promotion Viewed</item>
+        <item>Product Shared</item>
+        <item>Checkout Step Viewed</item>
+        <item>Order Refunded</item>
+        <item>Product Added</item>
+        <item>Coupon Applied</item>
+        <item>Product Removed</item>
+        <item>Checkout Started</item>
+        <item>Promotion Clicked</item>
+        <item>Product Clicked</item>
+        <item>Coupon Entered</item>
+    </string-array>
+</resources>
