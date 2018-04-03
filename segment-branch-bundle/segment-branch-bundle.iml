@@ -89,6 +89,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
@@ -102,7 +103,6 @@
     <orderEntry type="library" exported="" scope="TEST" name="junit:junit:4.12@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="org.powermock:powermock-api-support:1.6.2@jar" level="project" />
     <orderEntry type="library" exported="" name="com.segment.analytics.android:analytics:4.3.1@jar" level="project" />
-    <orderEntry type="library" exported="" name="Branch-SDK-release:@aar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="org.ow2.asm:asm-tree:5.0.1@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="org.assertj:assertj-core:1.7.1@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="org.powermock:powermock-module-junit4-common:1.6.2@jar" level="project" />
@@ -131,8 +131,10 @@
     <orderEntry type="library" exported="" scope="TEST" name="xpp3:xpp3_min:1.1.4c@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="org.robolectric:robolectric-resources:3.0@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="org.powermock:powermock-module-junit4:1.6.2@jar" level="project" />
+    <orderEntry type="library" exported="" name="io.branch.sdk.android:library-2.17.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="com.thoughtworks.xstream:xstream:1.4.2@jar" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="org.powermock:powermock-core:1.6.2@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.crashlytics.sdk.android:answers-shim-0.0.6" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="org.powermock:powermock-classloading-base:1.6.2@jar" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-annotations:25.3.1@jar" level="project" />
   </component>

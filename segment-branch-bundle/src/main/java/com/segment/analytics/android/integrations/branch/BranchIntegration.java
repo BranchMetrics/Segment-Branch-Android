@@ -50,7 +50,6 @@ public class BranchIntegration extends Integration<Branch> {
             Logger logger = analytics.logger(BRANCH);
             String branch_key = settings.getString("branch_key");
             Branch branch = Branch.getAutoInstance(analytics.getApplication());
-            Branch.enableLogging();
             // 03/09/18 PRS : Since this method is called async way, Branch will not be able to hook on the life cycle
             // events for the initial activity. Initialising Branch here without depending on lifecycle method
             try {

@@ -23,9 +23,6 @@ checkstyle {
 }
 
 repositories {
-    flatDir{
-        dirs 'libs'
-    }
     mavenCentral()
     maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
 }
@@ -33,8 +30,7 @@ repositories {
 dependencies {
 
     compile 'com.segment.analytics.android:analytics:4.3.1'
-    compile(name:'Branch-SDK-release', ext:'aar')
-    //compile 'io.branch.sdk.android:library:2.12.1'
+    compile 'io.branch.sdk.android:library:2.17.0'
     testCompile 'junit:junit:4.12'
     testCompile('org.robolectric:robolectric:3.0') {
         exclude group: 'commons-logging', module: 'commons-logging'
