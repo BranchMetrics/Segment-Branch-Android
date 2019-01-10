@@ -29,7 +29,7 @@ dependencies {
     implementation project(':segment-branch-bundle')
     implementation 'com.android.support:design:28.0.0'
 
-    compileOnly 'com.segment.analytics.android:analytics:4+'
+    compileOnly 'com.segment.analytics.android:analytics:4.3+'
 
 }
 
