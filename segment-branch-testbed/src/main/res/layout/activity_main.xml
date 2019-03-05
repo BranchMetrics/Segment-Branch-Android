@@ -1,0 +1,70 @@
+<RelativeLayout android:id="@+id/container"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/black">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/cmdIdentifyUser"
+            style="@style/button_layout"
+            android:text="Identify User"/>
+
+
+        <TextView
+            style="@style/button_layout"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Track events"
+            android:paddingLeft="5dp"/>
+
+        <LinearLayout
+            style="@style/button_layout"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <Spinner
+                android:id="@+id/event_name_spinner"
+                style="@style/button_layout"
+                android:layout_weight="1"
+                android:entries="@array/segment_ecom_events"/>
+
+            <Button
+                android:id="@+id/cmdTrackEvent"
+                style="@style/button_layout"
+                android:layout_weight="2"
+                android:text="Track"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/cmdTrackView"
+            style="@style/button_layout"
+            android:text="Track View"/>
+
+        <Button
+            android:id="@+id/cmdReset"
+            style="@style/button_layout"
+            android:text="Reset"/>
+
+        <Button
+            android:id="@+id/cmdAlias"
+            style="@style/button_layout"
+            android:text="Set Alias"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
