@@ -50,7 +50,7 @@ public class BranchIntegration extends Integration<Branch> {
             // 03/09/18 PRS : Since this method is called async way, Branch will not be able to hook on the life cycle
             // events for the initial activity. Initialising Branch here without depending on lifecycle method
             try {
-                Method method = branch.getClass().getDeclaredMethod("registerAppReInit");
+                Method method = branch.getClass().getDeclaredMethod("initSession");
                 method.setAccessible(true);
                 method.invoke(branch);
             } catch (NoSuchMethodException e) {

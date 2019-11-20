@@ -1,4 +1,8 @@
 
+Version 1.1.2
+
+- 1.1.2 Updated Branch SDK version from 4.1.1 to 4.2.0
+
 Version 1.1.1
 
   * Increment Branch SDK version
