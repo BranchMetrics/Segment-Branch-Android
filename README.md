@@ -4,7 +4,19 @@ analytics-android-integration-branch
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.branch.segment.analytics.android.integrations/library/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.branch.segment.analytics.android.integrations/library)
 [![Javadocs](http://javadoc-badge.appspot.com/io.branch.segment.analytics.android.integrations/library.svg?label=javadoc)](http://javadoc-badge.appspot.com/io.branch.segment.analytics.android.integrations/library)
 
-Branch integration for [analytics-android](https://github.com/segmentio/analytics-android).
+# Segment-Branch
+
+As of November 2019, the Branch mobile SDKs for Segment are in maintenance mode, and will be refreshed in the second half of 2020.
+
+Existing users of the Branch SDKs are unaffected, however new installations must implement the Branch native SDK separately. They can then enable Branch’s data export integration to push additional data to Segment, and data import integration to pull additional Segment data into the Branch dashboard.
+
+https://docs.branch.io/integrations/segment-import/
+
+https://segment.com/docs/destinations/branch-metrics/
+
+## Author
+
+Branch Metrics, support@branchmetrics.io
 
 ## License
 
