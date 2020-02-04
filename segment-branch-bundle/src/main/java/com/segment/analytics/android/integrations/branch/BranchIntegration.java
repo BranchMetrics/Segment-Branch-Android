@@ -46,6 +46,11 @@ public class BranchIntegration extends Integration<Branch> {
         public Integration<?> create(ValueMap settings, Analytics analytics) {
             appContext = analytics.getApplication().getApplicationContext();
             Logger logger = analytics.logger(BRANCH);
+
+            // hard code this value for now, in the future consider pulling version from file
+            io.branch.referral.BranchUtil.setPluginType(io.branch.referral.BranchUtil.PluginType.Segment);
+            io.branch.referral.BranchUtil.setPluginVersion("1.2.0");
+
             Branch branch = Branch.getAutoInstance(analytics.getApplication());
             // 03/09/18 PRS : Since this method is called async way, Branch will not be able to hook on the life cycle
             // events for the initial activity. Initialising Branch here without depending on lifecycle method

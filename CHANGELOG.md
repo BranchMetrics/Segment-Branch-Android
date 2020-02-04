@@ -1,3 +1,6 @@
+Version 1.2.0
+
+- 1.2.0 Updated Branch SDK versoin from 4.2.0 to 4.3.2
 
 Version 1.1.2
 
